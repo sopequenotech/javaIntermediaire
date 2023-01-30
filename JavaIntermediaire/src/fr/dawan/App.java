@@ -171,7 +171,7 @@ public class App {
 
 		//Programmation fonctionnelle repose sur l'utilisation d'interfaces fonctionnelles.
 		//Une interface fonctionnelle est une interface qui ne contient qu'une méthode à implémenter
-		//Le package java.ujtil.fonction contient toutes les interfaces fonctionnelles fournies depuis la 
+		//Le package java.util.fonction contient toutes les interfaces fonctionnelles fournies depuis la 
 		//version 1.8 de Java
 		
 		//Comment instancier une interface?
@@ -204,6 +204,15 @@ public class App {
 		ICalcul ical4 = myClasse::InstanceMethode; //réference vers une méthode qui respecte la signature de la méthode abstraite
 		
 		ICalcul ical5 = MyClasse::StaticMethode;
+		
+		MyClasse.MyMethode(new ICalcul() {
+			
+			@Override
+			public int add(int a, int b) {
+				// TODO Auto-generated method stub
+				return 15 ;
+			}
+		});
 
 	}
 

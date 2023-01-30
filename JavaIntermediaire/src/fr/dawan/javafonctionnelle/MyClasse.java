@@ -9,5 +9,10 @@ public class MyClasse {
 	public static int StaticMethode(int x, int y) {
 		return x+y;
 	}
+	
+	public static void MyMethode(ICalcul cal) {
+		
+	}
+	
 
 }
