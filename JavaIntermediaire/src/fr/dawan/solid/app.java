@@ -5,11 +5,11 @@ public class app {
 	public static void main(String[] args) {
 		//Le terme bonnes pratiques fait réference aux 5 principes SOLID de la concetion objet
 		/*
-		 * S: Single Of Responsabilty 
+		 * S: Single Of Responsability 
 		 * O: Open/Close
 		 * L: Liskov Substitution
 		 * I: Interface Segregation
-		 * D: Dependecy Inversion (Dependecy Injection)* 
+		 * D: Dependency Inversion (Dependency Injection)
 		 * 
 		 * Ce sont de bonnes pratiques à appliquer dans la conception objet
 		 * 
@@ -29,7 +29,19 @@ public class app {
 		 * Encapsulation:
 		 * Un objet devrait masquer au maximum sa structure interne
 		 * 
+		 * Demeter:
+		 * Une classe ne doit interagir qu'avec les classes amies.
+		 * Une méthode d'une classe doit utiliser:
+		 * - ses paramètres
+		 * - ses variables
+		 * - les attributs de sa classe
 		 * 
+		 * Tell d'ont ask:
+		 * Dites, ne posez pas de questions. Dites à vos objets ce qu'ils doivent faire, ne leur 
+		 * posez pas de questions sur leur états.
+		 * 
+		 * N'importe qui peut écrire code qu'une machine peut comprendre
+		 * UN bon dév. c'est celui qui mets en place un code qu'un être humain peut comprendre
 		 * 
 		 * 
 		 */
